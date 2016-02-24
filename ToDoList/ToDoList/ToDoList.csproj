@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{84C19F66-D516-423F-BC0E-6389677DF929}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ToDoList</RootNamespace>
+    <AssemblyName>ToDoList</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Akka, Version=1.0.3.11, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.1.0.3\lib\net45\Akka.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Actors\DurableActor.cs" />
+    <Compile Include="Messages\RestoreFromJournal.cs" />
+    <Compile Include="Messages\CompletedRestore.cs" />
+    <Compile Include="Actors\JournalWriter.cs" />
+    <Compile Include="Actors\JournalReader.cs" />
+    <Compile Include="Messages\PersistToJournal.cs" />
+    <Compile Include="Actors\JournalActor.cs" />
+    <Compile Include="Actors\DurableView.cs" />
+    <Compile Include="Actors\Handler.cs" />
+    <Compile Include="Actors\DurableBase.cs" />
+    <Compile Include="IToDoService.cs" />
+    <Compile Include="ToDoService.cs" />
+    <Compile Include="Actors\ToDoDispatcher.cs" />
+    <Compile Include="Messages\ListToDos.cs" />
+    <Compile Include="Messages\SpecifyToDo.cs" />
+    <Compile Include="Messages\MoveUpToDo.cs" />
+    <Compile Include="Actors\ToDos.cs" />
+    <Compile Include="Messages\ToDoDocument.cs" />
+    <Compile Include="Actors\ToDo.cs" />
+    <Compile Include="Messages\ToDoSpecified.cs" />
+    <Compile Include="Messages\ToDoMovedUp.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
