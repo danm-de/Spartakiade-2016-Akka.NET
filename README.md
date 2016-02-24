@@ -18,7 +18,7 @@ in allen Projekten die NuGet Pakete mittels "restore" laden.
  * CrashingHelloActor - Überwachung von Aktoren
  * MapReduce - Statistik Beispiel
  * PiCalculator - Concurrency ala Akka.NET
- * SudokuSolver - 108 Aktoren lösen ein SudokuSolver
+ * SudokuSolver - 108 Aktoren lösen ein Sudoku
  * WordCount - einfache Stream Implementierung 
  * ToDoList - CQRS/ES und Web API
 
