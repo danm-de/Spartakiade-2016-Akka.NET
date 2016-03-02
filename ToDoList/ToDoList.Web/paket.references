@@ -1,0 +1,15 @@
+CommonServiceLocator
+Microsoft.AspNet.WebApi.Client
+Microsoft.AspNet.WebApi.Core
+Microsoft.AspNet.WebApi.Owin
+Microsoft.Owin
+Microsoft.Owin.Diagnostics
+Microsoft.Owin.FileSystems
+Microsoft.Owin.Host.HttpListener
+Microsoft.Owin.Hosting
+Microsoft.Owin.SelfHost
+Microsoft.Owin.StaticFiles
+Newtonsoft.Json
+Owin
+Unity
+Unity.WebAPI
