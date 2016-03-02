@@ -19,3 +19,9 @@ nuget NUnit 2.6.4 framework: >= net45
 nuget Owin 1.0 framework: >= net45
 nuget Unity 4.0.1 framework: >= net45
 nuget Unity.WebAPI 5.2.3 framework: >= net45
+nuget SlimJim
+
+group Helper
+source https://www.nuget.org/api/v2
+
+nuget SlimJim

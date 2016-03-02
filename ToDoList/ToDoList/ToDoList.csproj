@@ -60,6 +60,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="paket.references" />
     <None Include="README.md" />
   </ItemGroup>
