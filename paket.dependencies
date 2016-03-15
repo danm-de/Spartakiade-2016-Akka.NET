@@ -1,0 +1,13 @@
+source https://www.nuget.org/api/v2
+
+nuget Akka
+nuget Akka.TestKit.NUnit 1.0.6 framework: >= net45
+nuget Microsoft.AspNet.WebApi.Owin 5.2.3 framework: >= net45
+nuget Microsoft.Owin.SelfHost 3.0.1 framework: >= net45
+nuget Microsoft.Owin.StaticFiles 3.0.1 framework: >= net45
+nuget Unity.WebAPI 5.2.3 framework: >= net45
+
+group Helper
+source https://www.nuget.org/api/v2
+
+nuget SlimJim

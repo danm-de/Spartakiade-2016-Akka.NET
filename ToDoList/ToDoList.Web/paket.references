@@ -1,0 +1,4 @@
+Microsoft.AspNet.WebApi.Owin
+Microsoft.Owin.SelfHost
+Microsoft.Owin.StaticFiles
+Unity.WebAPI

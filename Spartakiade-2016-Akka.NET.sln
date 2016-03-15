@@ -1,0 +1,82 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashingHelloActor", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\CrashingHelloActor\CrashingHelloActor\CrashingHelloActor.csproj", "{6E3703AF-FFF2-419F-B823-ED21D0447263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessMyNumber", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\GuessMyNumber\GuessMyNumber\GuessMyNumber.csproj", "{44ED1EFC-0C6E-4E26-ADB7-11216045A9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessMyNumber.Tests", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\GuessMyNumber\GuessMyNumber.Tests\GuessMyNumber.Tests.csproj", "{91E406A0-C309-47CA-95B5-3D20AC32B3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloActor", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\HelloActor\HelloActor\HelloActor.csproj", "{CA299ED6-FA14-4986-9759-9DD3FE0DFD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\MapReduce\MapReduce\MapReduce.csproj", "{8850AD1B-01BF-4C09-B9E2-6A7FA9B75FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiCalculator", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\PiCalculator\PiCalculator.csproj", "{1EACA063-8804-4FB3-819F-1D27CAFDAE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\SudokuSolver\SudokuSolver\SudokuSolver.csproj", "{9A45D014-7128-4C73-B10D-7AE3E34D9C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\ToDoList\ToDoList\ToDoList.csproj", "{84C19F66-D516-423F-BC0E-6389677DF929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Web", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\ToDoList\ToDoList.Web\ToDoList.Web.csproj", "{570C0009-5D55-4DD2-A93A-66B9F74D0438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "C:\repo_private\sparta16\Spartakiade-2016-Akka.NET\WordCount\WordCount\WordCount.csproj", "{8D859DCB-FFB9-4822-B9D9-C9789C43EAD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrashingHelloActor", "CrashingHelloActor", "{B98BCD33-A220-44F5-803F-31B5554E47B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GuessMyNumber", "GuessMyNumber", "{7251492A-D4BC-495B-8DFB-D9F64A1D58C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloActor", "HelloActor", "{8A666CA9-4FCE-478D-9603-1E4CBD59AC9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MapReduce", "MapReduce", "{1E9D6B00-CFE2-41EE-B2E1-58F26E296184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SudokuSolver", "SudokuSolver", "{6894E79D-B0DD-4480-86D3-0C74E71CDF21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{81BC768B-FF0E-47C3-AF14-B39053B4977F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WordCount", "WordCount", "{A124D820-4F0D-44D3-8120-6AEAC11BF1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3703AF-FFF2-419F-B823-ED21D0447263}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6E3703AF-FFF2-419F-B823-ED21D0447263}.Release|Any CPU.ActiveCfg = Release|x86
+		{44ED1EFC-0C6E-4E26-ADB7-11216045A9C7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{44ED1EFC-0C6E-4E26-ADB7-11216045A9C7}.Release|Any CPU.ActiveCfg = Release|x86
+		{91E406A0-C309-47CA-95B5-3D20AC32B3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E406A0-C309-47CA-95B5-3D20AC32B3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E406A0-C309-47CA-95B5-3D20AC32B3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E406A0-C309-47CA-95B5-3D20AC32B3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA299ED6-FA14-4986-9759-9DD3FE0DFD15}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CA299ED6-FA14-4986-9759-9DD3FE0DFD15}.Release|Any CPU.ActiveCfg = Release|x86
+		{8850AD1B-01BF-4C09-B9E2-6A7FA9B75FB6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8850AD1B-01BF-4C09-B9E2-6A7FA9B75FB6}.Release|Any CPU.ActiveCfg = Release|x86
+		{1EACA063-8804-4FB3-819F-1D27CAFDAE7E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1EACA063-8804-4FB3-819F-1D27CAFDAE7E}.Release|Any CPU.ActiveCfg = Release|x86
+		{9A45D014-7128-4C73-B10D-7AE3E34D9C47}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9A45D014-7128-4C73-B10D-7AE3E34D9C47}.Release|Any CPU.ActiveCfg = Release|x86
+		{84C19F66-D516-423F-BC0E-6389677DF929}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{84C19F66-D516-423F-BC0E-6389677DF929}.Release|Any CPU.ActiveCfg = Release|x86
+		{570C0009-5D55-4DD2-A93A-66B9F74D0438}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{570C0009-5D55-4DD2-A93A-66B9F74D0438}.Release|Any CPU.ActiveCfg = Release|x86
+		{8D859DCB-FFB9-4822-B9D9-C9789C43EAD0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8D859DCB-FFB9-4822-B9D9-C9789C43EAD0}.Release|Any CPU.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E3703AF-FFF2-419F-B823-ED21D0447263} = {B98BCD33-A220-44F5-803F-31B5554E47B3}
+		{44ED1EFC-0C6E-4E26-ADB7-11216045A9C7} = {7251492A-D4BC-495B-8DFB-D9F64A1D58C8}
+		{91E406A0-C309-47CA-95B5-3D20AC32B3CA} = {7251492A-D4BC-495B-8DFB-D9F64A1D58C8}
+		{CA299ED6-FA14-4986-9759-9DD3FE0DFD15} = {8A666CA9-4FCE-478D-9603-1E4CBD59AC9A}
+		{8850AD1B-01BF-4C09-B9E2-6A7FA9B75FB6} = {1E9D6B00-CFE2-41EE-B2E1-58F26E296184}
+		{9A45D014-7128-4C73-B10D-7AE3E34D9C47} = {6894E79D-B0DD-4480-86D3-0C74E71CDF21}
+		{84C19F66-D516-423F-BC0E-6389677DF929} = {81BC768B-FF0E-47C3-AF14-B39053B4977F}
+		{570C0009-5D55-4DD2-A93A-66B9F74D0438} = {81BC768B-FF0E-47C3-AF14-B39053B4977F}
+		{8D859DCB-FFB9-4822-B9D9-C9789C43EAD0} = {A124D820-4F0D-44D3-8120-6AEAC11BF1EA}
+	EndGlobalSection
+EndGlobal
