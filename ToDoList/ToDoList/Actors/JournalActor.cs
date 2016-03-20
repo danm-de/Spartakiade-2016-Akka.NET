@@ -77,9 +77,14 @@ namespace ToDoList.Actors
             Context.System.Log.Debug("Actor {0}: Load from: {1}", Self.Path.Name, Path.GetFileName(filePath));
 
             var json = File.ReadAllText(filePath);
-            var type = Type.GetType(filePath.Split(new [] { '-' })[1]);
-
-            return JsonConvert.DeserializeObject(json, type, jsonSettings);
+			var typeName = Path
+				.GetFileNameWithoutExtension(filePath)
+				.Split(new [] { '-' })
+				.Skip(1)
+				.First();
+            var type = Type.GetType(typeName);
+			var instance = JsonConvert.DeserializeObject(json, type, jsonSettings);
+			return instance;
         }
 	}
 }
